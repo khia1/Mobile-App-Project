@@ -10,7 +10,6 @@
     "author": "Apache Cordova Team",
     "license": "Apache-2.0",
     "dependencies": {
-        "cordova-android": "^7.1.4",
         "cordova-plugin-device": "^2.0.2",
         "cordova-plugin-geolocation": "^4.0.1",
         "cordova-plugin-whitelist": "^1.3.3",
@@ -23,8 +22,6 @@
             "phonegap-nfc": {},
             "cordova-plugin-geolocation": {}
         },
-        "platforms": [
-            "android"
-        ]
+        "platforms": []
     }
 }
