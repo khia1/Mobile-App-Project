@@ -37,7 +37,7 @@ function showSett() {
     nfc.showSettings();
 }
 
-//NFC Reading tags: (Tag must be formatted first)
+//NFC Reading tags: (Tag must be formatted first, else the default android window will notify of a blank tag, leaving the app)
 function NFCRead() {
 nfc.addTagDiscoveredListener  (
     function (nfcEvent) {

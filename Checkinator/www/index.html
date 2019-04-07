@@ -19,7 +19,7 @@
                     <ul class="nav navbar-nav navbar-center text-center">
                         <li><a onclick="navProfile()">Profile</a></li>
                         <li><a onclick="navEvents()">Events</a></li>
-                        <li><a onclick="navCheckIn()">Check-In</a></li>
+                        <li><a onclick="navCheckIn();NFCRead();">Check-In</a></li> <!--Calls 2 functions, checkin page for NAVJS and activates the NFC reader at same time -->
                     </ul></div></div></div> 
 
         <div id="welcome" class="container-fluid"> <!--Welcome Page-->
@@ -86,7 +86,6 @@
         <h1>NFC Check page</h1><br />
         <button onclick="checkEnabled()"class="btn btn-default  btn-block">Check if NFC enabled</button>
         <button onclick="showSett()"class="btn btn-default  btn-block">Open device NFC settings</button>
-        <button onclick="NFCRead()"class="btn btn-default  btn-block">Read a NDEF Tag</button> <!--This is a button for demo, but could be loaded when NFC page is visible for ease of use-->
+        <!--<button onclick="NFCRead()"class="btn btn-default  btn-block">Read a NDEF Tag</button> This is a button for demo, but could be loaded when NFC page is visible for ease of use-->
         </div>
-        
 </body></html>
